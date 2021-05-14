@@ -1,0 +1,50 @@
+body {
+    background: url(images/background3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+    font-family: 'Codystar', cursive;
+    
+}
+
+.containerBox{
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    display: block;
+    position: absolute;
+    background-color:rgb(6, 32, 67,0.5);
+    width: 450px;
+    height: 350px;
+    text-align: center;
+
+    margin-top: -78px; /* HALF OF THE HEIGHT */
+    margin-left: -225px; /* HALF OF THE WIDTH */
+
+    border:rgb(255, 255, 255) 1px solid;
+    padding-top: 2.3% !important;
+    padding-left: 2.1%;
+    padding-right: 2.1%;
+
+}
+
+.lableColor{
+    color: white;
+    font-weight: bold;
+    font-family: 'Codystar', cursive;
+}
+
+#copyright{
+    
+    color: rgb(236, 235, 235, 0.5);
+    padding-top: 2.5%;
+}
+
+.invisivel{
+    visibility:hidden
+}
