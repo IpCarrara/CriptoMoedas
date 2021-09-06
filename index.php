@@ -17,7 +17,7 @@ if(isset($_GET ['moeda'])){
 
             $pageArray = explode('Price Today</caption><tbody><tr><th scope="row">', $coinMkPage);
 
-            $pageArray2 = explode('</td></tr><tr><th scope="row"><span class="withBadge___2l5n0">Price Change<span class="badge24h___3Hbkq">24h</span></span>', $pageArray[1]);
+            $pageArray2 = explode('</td></tr><tr><th scope="row"><span class="nds9rn-1 hhqaJP">Price Change', $pageArray[1]);
 
             $pageArray3 = explode('Price</strong></th><td>', $pageArray2[0]);
 
