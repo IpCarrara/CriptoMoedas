@@ -22,6 +22,6 @@ Site that allows the user to search any cryptocurrency and get its price in real
 
 (Challenge proposed by Professor Rob Percival from “The Complete Web Developer Course 2.0” course. The objective was to create an interactive page in PHP using “file_get_contents” and displaying only the elements relevant to the user's search).
 
-This project was developed for testing purposes only. Such a technique makes the site dependent on the page that the data was collected from (comarketcap.com on 06/0921). Therefore, any change on comarketcap.com can "break" the site that was developed.
+This project was developed for testing purposes only. Such a technique makes the site dependent on the page that the data was collected from (comarketcap.com on 09/06/21). Therefore, any change on comarketcap.com can "break" the site that was developed.
 
 Site: http://testewebdev.epizy.com/PHP/index.php
